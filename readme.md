@@ -24,9 +24,9 @@ docker run --rm -it -p 8000:8000 demo
 
 Create a simulation 
 Url: http://127.0.0.1:8000/api/v1/simulations/
-Method : Post
+Method : Post,
 On success:
-    status: 200
+    status: 200,
     response body 
 ```
     {
@@ -37,9 +37,9 @@ On success:
 ```
 Get a simulation;
 Url : http://127.0.0.1:8000/api/v1/simulations/<simulation id>/
-Method: Get
+Method: Get,
 On success
-status: 200
+status: 200,
 response boday
 ```
 {
@@ -54,8 +54,9 @@ On error:
  Read active power 
  Url : http://127.0.0.1:8000/api/v1/simulations/<simulation id>/active/
  
- On success
-status: 200
+Method: Get,
+On success,
+status: 200,
 response boday
 ```
 {
@@ -68,8 +69,9 @@ On error:
 Read reactive power 
  Url : http://127.0.0.1:8000/api/v1/simulations/<simulation id>/reactive/
  
-On success
-status: 200
+Method: Get,
+On success,
+status: 200,
 response boday
 ```
 {
