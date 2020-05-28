@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     # Third party
     'rest_framework',
 
+    # Apps
+    'gridsingularity.apps.base',
+    'gridsingularity.apps.simulation'
+
 
     
 ]
